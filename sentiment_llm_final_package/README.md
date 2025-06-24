@@ -17,15 +17,10 @@
 python preprocess.py
 3️⃣ 학습:
 
-bash
-복사
-편집
+
 python train_model.py
 4️⃣ 웹앱 실행:
 
-bash
-복사
-편집
 streamlit run streamlit_app.py
 CSV 파일 포맷
 document: 감성 분석 대상 문장
