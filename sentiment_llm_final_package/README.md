@@ -1,4 +1,4 @@
-# LLM 통합 감성분석 프로젝트
+## 유튜브 댓글 감성분석 프로젝트
 
 ## 프로젝트 구성
 
@@ -6,24 +6,19 @@
 - 학습: `train_model.py`
 - 추론: `inference.py`
 - Streamlit 웹앱: `streamlit_app.py`
-- 유틸리티: `utils.py`
+- 유틸리티: `utils.py'
 
-## 실행 순서
-```bash
 
-1️⃣ 데이터 준비 (`data/sample_data.csv`)  
+웹앱 실행 방법 :
 
-2️⃣ 전처리: (python) preprocess.py
-
-3️⃣ 학습: (python) train_model.py
-
-4️⃣ 웹앱 실행:
-
-streamlit run streamlit_app.py
+streamlit 실행 streamlit_app.py
 CSV 파일 포맷
-document: 감성 분석 대상 문장
+document: 감성 분석 대상 문장 
 
 label: 부정 / 중립 / 긍정
 
 불용어 사전
 data/korean_stopwords.txt 수정 가능
+
+양방향 LSTM 사용,
+데이터를 좀더 수집하여 더 정확한 결과를 낼 예정
