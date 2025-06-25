@@ -10,7 +10,7 @@
 
 ![image](https://github.com/user-attachments/assets/87599075-f9e9-4a39-bae6-712c81e7e401)
 
-검색시 웹크롤링이 바로 진행되어 영상 소리가 들립니다, 주의하세요.
+검색시 웹크롤링이 바로 진행되어 영상 소리가 들리니 주의,
 
 감성분석 결과는 bar chart, pychart로 긍정/중립/부정 비율이 나타나며, 
 
