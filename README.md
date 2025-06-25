@@ -8,8 +8,6 @@
 
 검색 바에서 요즘 인식이 궁금한 인물 이름을 적고 버튼을 누르면 바로 감성분석이 진행됩니다.
 
-![image](https://github.com/user-attachments/assets/87599075-f9e9-4a39-bae6-712c81e7e401)
-
 검색시 웹크롤링이 바로 진행되어 영상 소리가 들리니 주의,
 
 감성분석 결과는 bar chart, pychart로 긍정/중립/부정 비율이 나타나며, 
