@@ -17,8 +17,5 @@ document: 감성 분석 대상 문장
 
 label: 부정 / 중립 / 긍정
 
-불용어 사전
-data/korean_stopwords.txt 수정 가능
-
 양방향 LSTM 사용,
 데이터를 좀더 수집하여 더 정확한 결과를 낼 예정
