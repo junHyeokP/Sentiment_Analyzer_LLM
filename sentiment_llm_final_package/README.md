@@ -11,7 +11,7 @@
 
 웹앱 실행 방법 :
 
-streamlit 실행 streamlit_app.py
+streamlit 실행 -> streamlit run streamlit_app.py
 CSV 파일 포맷
 document: 감성 분석 대상 문장 
 
