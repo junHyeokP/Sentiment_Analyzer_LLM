@@ -5,6 +5,7 @@
 
 # 이용방법
 ![image](https://github.com/user-attachments/assets/ea4b8e78-5424-484c-b6e2-f0d0e4491bd1)
+
 검색 바에서 요즘 인식이 궁금한 인물 이름을 적고 버튼을 누르면 바로 감성분석이 진행됩니다.
 
 ![image](https://github.com/user-attachments/assets/87599075-f9e9-4a39-bae6-712c81e7e401)
