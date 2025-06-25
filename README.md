@@ -18,7 +18,7 @@ wordcloud로 댓글 중 키워드 빈도수가 가장 많은 단어들을 표시
 
 # 코드 작성 중 발견한 문제점
 
-TensorFlow v1 API 경고 : 불러온 Tensorflow 코드 중에 아직 구버전의 코드, 
+TensorFlow v1 API 경고 : 불러온 Tensorflow 코드 중에 아직 구버전의 코드가 존재 
                          
                          오래되서 최신 버전엔 더 이상 사용하지 않는 코드로 인해 자잘한 경고문이 뜸
                          
