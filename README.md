@@ -10,7 +10,9 @@
 ![image](https://github.com/user-attachments/assets/87599075-f9e9-4a39-bae6-712c81e7e401)
 
 검색시 웹크롤링이 바로 진행되어 영상 소리가 들립니다, 주의하세요.
+
 감성분석 결과는 bar chart, pychart로 긍정/중립/부정 비율이 나타나며, 
+
 wordcloud로 댓글 중 키워드 빈도수가 가장 많은 단어들을 표시합니다.
 
 # 코드 작성 중 발견한 문제점
