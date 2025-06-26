@@ -1,32 +1,5 @@
 ## Youtube Comment Sentimental Analyzer
 
-# 구성
-
-hangul/
-
-└── NanumGothic-Regular.ttf
-crawler/
-└── youtube_crawler.py
-data/
-├── new_data.csv
-└── new_sentiment_0_387.csv
-model_config/
-├──eval_report.txt
-├──kobert_model.py 
-└── predict.py
-train/
-├──finetune_kobert.py
-└── train_kobert.py
-preprocess/
-└── text_cleaner.py
-models/
-├── kobert_v3.pt
-├── kobert_latest.pt
-└── eval_report_v3.txt   ← 여기에 정밀도 / 재현율 / F1 스코어 저장됨
-
-/STYoutubeSentiment.py
-
-
 # 이용방법
 ![image](https://github.com/user-attachments/assets/ea4b8e78-5424-484c-b6e2-f0d0e4491bd1)
 
