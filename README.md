@@ -2,6 +2,29 @@
 
 # 구성
 
+hangul/
+└── NanumGothic-Regular.ttf
+crawler/
+└── youtube_crawler.py
+data/
+├── new_data.csv
+└── new_sentiment_0_387.csv
+model_config/
+├──eval_report.txt
+├──kobert_model.py 
+└── predict.py
+train/
+├──finetune_kobert.py
+└── train_kobert.py
+preprocess/
+└── text_cleaner.py
+models/
+├── kobert_v3.pt
+├── kobert_latest.pt
+└── eval_report_v3.txt   ← 여기에 정밀도 / 재현율 / F1 스코어 저장됨
+
+/STYoutubeSentiment.py
+
 
 # 이용방법
 ![image](https://github.com/user-attachments/assets/ea4b8e78-5424-484c-b6e2-f0d0e4491bd1)
@@ -22,7 +45,7 @@ wordcloud로 댓글 중 키워드 빈도수가 가장 많은 단어들을 표시
 
 성능엔 별 영향이 없을 것으로 판단되어 현재 고치고 있진 않지만, 코드 리펙토링이 필요하다고 인지는 하는 중임.
                         
-### 저장된 모델 파일 의존성 : 모델(상대 경로 : model/kobert_latest.pt)이 없으면 웹 안으로도 
+### 저장된 모델 파일 의존성 : 모델(상대 경로 : models/kobert_latest.pt)이 없으면 웹 안으로도 
 ### 못 들어가며 사실상 아무 기능도 동작을 못함
 
 상대 경로 형식대로 모델이 놓여있지 않다면,
