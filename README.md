@@ -11,6 +11,13 @@
 
 wordcloud로 댓글 중 키워드 빈도수가 가장 많은 단어들을 표시합니다.
 
+# 기술 스택
+
+Python, Pandas, matplotlib(막대 그래프, 워드 클라우드), numpy
+Google gemma(언어모델)
+Selenium(웹크롤러)
+sklearn
+
 # 코드 작성 중 발견한 문제점 / 취약점
 
 ### TensorFlow v1 API 경고 : 불러온 Tensorflow 코드 중에 아직 구버전의 코드가 존재 
@@ -30,4 +37,4 @@ wordcloud로 댓글 중 키워드 빈도수가 가장 많은 단어들을 표시
 
 ## 추후 개선 예정
 
-모델 성능 개선을 위한 탐색을 할 예정, 현재 사용중인 모델인 kobert모델을 위한 epoch, learning_rate 조정 및 점검
+모델 성능 개선을 위한 추가적인 데이터 수집을 계속진행, 현재 사용중인 모델인 kobert모델을 위한 epoch, learning_rate 조정 및 점검
